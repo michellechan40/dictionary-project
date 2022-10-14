@@ -11,7 +11,24 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="sunset" />
         </main>
-        <footer className="App-footer">Coded by Michelle Chan</footer>
+        <footer>
+          This React project was coded by{" "}
+          <a
+            href="https://cozy-palmier-cefde3.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Michelle Chan {""}
+          </a>
+          and is{" "}
+          <a
+            href="https://github.com/michellechan40/react-weather-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>
+        </footer>
       </div>
     </div>
   );
