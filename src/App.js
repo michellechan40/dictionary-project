@@ -9,7 +9,7 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="zen" />
         </main>
-        <footer>
+        <footer className="App-footer">
           This React project was coded by{" "}
           <a
             href="https://cozy-palmier-cefde3.netlify.app"
