@@ -1,19 +1,10 @@
-body {
-  background: #dfeff0;
-}
-
 a {
   color: #9670f4;
 }
 
 .App {
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.App-logo {
-  max-width: 200px;
-  display: block;
+  background-image: url("./papers.jpg");
+  padding: 10px;
   margin: 0 auto;
 }
 
@@ -23,6 +14,11 @@ a {
 }
 
 .App-footer {
-  text-align: center;
-  margin: 30px 0;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8x;
+  box-shadow: 0x 10px 20px rgb(0 0 0 / 10%);
+  margin: 20px auto;
+  max-width: 700px;
+  font-family: monospace;
 }

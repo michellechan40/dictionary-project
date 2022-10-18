@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">React Web Dictionary 🔍 </header>
+        <header className="App-header"></header>
         <main>
           <Dictionary defaultKeyword="zen" />
         </main>
